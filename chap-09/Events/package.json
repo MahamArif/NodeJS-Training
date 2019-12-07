@@ -1,0 +1,29 @@
+{
+  "name": "flight-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-mocha src/test/flight.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.5.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.5.7"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.40",
+    "@types/mocha": "^5.2.6",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2",
+    "ts-mocha": "^6.0.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
